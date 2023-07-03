@@ -29,7 +29,7 @@ app.post("/",function(req,res){
     div4=[];
 
     const searchText = req.body.search;
-    const apiKey = '9d7lx4u2AOXNz6MICvrj5Tpnzgsm1wMnPrzoDsIfQ_s';
+    const apiKey = '';
     const url=`https://api.unsplash.com/search/photos/?page=1&per_page=100&query=${searchText}&client_id=${apiKey}`;
     
     
